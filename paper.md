@@ -58,6 +58,9 @@ authors:
   - name: Weile Wei
     orcid: 0000-0002-3065-4959
     affiliation: "1"
+  - name: Tianyi Zhang
+    orcid: 0000-0002-1000-4887
+    affiliation: "6"
 affiliations:
  - name: Center of Computation \& Technology, Louisiana State University
    index: 1
@@ -204,8 +207,10 @@ HPX is utilized in a diverse set of applications: Octo-Tiger [@daiss2019piz;
 @heller2019harnessing; @pfander2018accelerating], an astrophysics code for
 stellar mergers; libGeoDecomp [@Schafer:2008:LGL:1431669.1431721], an
 auto-parallelizing library to speed up stencil code based computer simulations;
-and NLMech [@diehl2018implementation], a simulation tool for non-local models,
-e.g. Peridynamics.
+NLMech [@diehl2018implementation], a simulation tool for non-local models,
+e.g. Peridynamics; and hpxMP [@zhang2019introduction; @zhang2020supporting], 
+a modern OpenMP implementation leveraging HPX that supports shared memory multithread programming.
+
 
 
 # Example code
