@@ -208,8 +208,10 @@ HPX is utilized in a diverse set of applications: Octo-Tiger [@daiss2019piz;
 stellar mergers; libGeoDecomp [@Schafer:2008:LGL:1431669.1431721], an
 auto-parallelizing library to speed up stencil code based computer simulations;
 NLMech [@diehl2018implementation], a simulation tool for non-local models,
-e.g. Peridynamics; and hpxMP [@zhang2019introduction; @zhang2020supporting], 
-a modern OpenMP implementation leveraging HPX that supports shared memory multithread programming.
+e.g. Peridynamics; hpxMP [@zhang2019introduction; @zhang2020supporting], 
+a modern OpenMP implementation leveraging HPX that supports shared memory multithread programming; 
+and Phylanx [@tohid2018asynchronous,@wagle2019runtime] a distributed array toolkit. 
+
 
 
 
