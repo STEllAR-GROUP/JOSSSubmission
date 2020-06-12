@@ -203,14 +203,15 @@ and their references are listed below:
     concurrency facilities and APIs [@standard2020programming], such as
     `hpx::jthread`, `hpx::latch`, `hpx::barrier`, etc.
 
-HPX is utilized in a diverse set of applications: Octo-Tiger [@daiss2019piz;
-@heller2019harnessing; @pfander2018accelerating], an astrophysics code for
-stellar mergers; libGeoDecomp [@Schafer:2008:LGL:1431669.1431721], an
+HPX is utilized in a diverse set of applications: [Octo-Tiger](https://github.com/STEllAR-GROUP/octotiger) 
+[@daiss2019piz;@heller2019harnessing; @pfander2018accelerating], an astrophysics code for
+stellar mergers; [libGeoDecomp](https://github.com/gentryx/libgeodecomp) [@Schafer:2008:LGL:1431669.1431721], an
 auto-parallelizing library to speed up stencil code based computer simulations;
-NLMech [@diehl2018implementation], a simulation tool for non-local models,
-e.g. Peridynamics; hpxMP [@zhang2019introduction; @zhang2020supporting], 
+[NLMech](https://github.com/nonlocalmodels) [@diehl2018implementation], a simulation tool for non-local models,
+e.g. Peridynamics; [hpxMP](https://github.com/STEllAR-GROUP/hpxMP) [@zhang2019introduction; @zhang2020supporting], 
 a modern OpenMP implementation leveraging HPX that supports shared memory multithread programming; 
-and Phylanx [@tohid2018asynchronous,@wagle2019runtime] a distributed array toolkit. 
+and [Phylanx](https://github.com/STEllAR-GROUP/phylanx) [@tohid2018asynchronous;@wagle2019runtime] 
+a distributed array toolkit. 
 
 
 
