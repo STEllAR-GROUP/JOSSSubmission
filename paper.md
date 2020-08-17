@@ -242,7 +242,7 @@ int main()
     std::cout << sum1 << '\n';      // will print 55
 
     // Compute the sum in a parallel fashion based on a range of values
-    int sum2 = hpx::reduce(hpx::execution::par, values, 0);
+    int sum2 = hpx::ranges::reduce(hpx::execution::par, values, 0);
     std::cout << sum2 << '\n';      // will print 55 as well
 
     return 0;
@@ -287,8 +287,8 @@ int main()
     size_t n = 100;
 
     // Launch two concurrent computations of each partial result
-    hpx::future<double> f1 = std::async(taylor, 0, n / 2, n, 2.);
-    hpx::future<double> f2 = std::async(taylor, (n / 2) + 1, n, n, 2.);
+    hpx::future<double> f1 = hpx::async(taylor, 0, n / 2, n, 2.);
+    hpx::future<double> f2 = hpx::async(taylor, (n / 2) + 1, n, n, 2.);
 
     // Introduce a barrier to gather the results
     double res = f1.get() + f2.get();
